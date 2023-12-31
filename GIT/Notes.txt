@@ -1,0 +1,38 @@
+github.com
+
+Download for Windows
+
+Using winget tool
+Install winget tool if you don't already have it, then type this command in command prompt or Powershell.
+
+winget install --id Git.Git -e --source winget
+
+
+1.Difference between HTTPS and SSH
+
+how to configure ssh in windows?
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Git Commands :-
+
+git clone <https or ssh url>
+git status :- use to check file status
+git add :- use to stage the file
+git commit -m <"comment.."> :- used to commit a snapshot of the staging directory 
+git push origin <branch name> :- pushes a local branch(es) to a remote repository (origin)
+git log :- keeping track of your project and filtering certain information
+git checkout <file name> :- when you want to cancel the recent changes to files
+git revert <commit ID/commit-hash> :- use to deleted files / remove its changes from your branch
+git reset <commit ID> :- use to recover deleted files (after using git revert)
+git restore --staged <file> :- use to unstage the file
+git restore <file> :- to discard changes in working directory
+git reset --soft HEAD~1 :- use to get commited >>>> staged   
+git commit --amend -m "New commit message"  :- to edit the commited message locally
+
+# What I Learned
+Terminology
+- clone
+- repo = repository
+- push
+- staging committing
