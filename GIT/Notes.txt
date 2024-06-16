@@ -21,6 +21,7 @@ git status :- use to check file status
 git add :- use to stage the file
 git commit -m <"comment.."> :- used to commit a snapshot of the staging directory 
 git push origin <branch name> :- pushes a local branch(es) to a remote repository (origin)
+git pull origin <branch name> :- pulls the remote branch changes in local repository
 git log :- keeping track of your project and filtering certain information
 git checkout <file name> :- when you want to cancel the recent changes to files
 git revert <commit ID/commit-hash> :- use to deleted files / remove its changes from your branch
